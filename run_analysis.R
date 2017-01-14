@@ -39,6 +39,7 @@ ft <- gsub("std","StandardDeviation",ft)
 ft <- gsub("mean","Mean",ft)
 ft <- gsub("^t","time",ft)
 ft <- gsub("^f","frequency",ft)
+ft <- gsub("BodyBody","Body",ft)
 names(X_merged) <- ft
 
 #6 Average
